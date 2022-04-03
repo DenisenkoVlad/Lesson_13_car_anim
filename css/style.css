@@ -1,0 +1,945 @@
+/* &display=swap */
+@import "null.css";
+
+body {
+	background: #757577 url(../img/road.jpg) 0 -300px / 1920px 1080px repeat-x;
+}
+.wrapper {
+	max-width: 1200px;
+	padding: 50px 0 0 0;
+	margin: 0 auto;
+}
+
+
+.logo {
+	margin: 0 auto 100px auto;
+	width: 770px;
+}
+.nissan {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
+.skyline {
+	display: inline-block;
+	width: 300px;
+	height: 100px;
+}
+.gt-r {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
+.nismo {
+	display: inline-block;
+	width: 250px;
+	height: 100px;
+}
+
+
+.car {
+	width: 1200px;
+	height: 400px;
+	position: relative;
+}
+
+
+.front__base {
+	width: 400px;
+	height: 200px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	bottom: 40px;
+	left: 20px;
+	border-radius: 100% 0% 100% 0% / 50% 100% 0% 50% ;
+}
+.front__hood1 {
+	width: 200px;
+	height: 30px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	bottom: 180px;
+	left: 50px;
+	transform: rotate(-10deg);
+	border-radius: 30px;
+}
+.front__hood2 {
+	width: 50px;
+	height: 30px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	bottom: 140px;
+	left: 15px;
+	transform: rotate(-30deg);
+	border-radius: 5px;
+}
+
+.front__bamper1 {
+	width: 50px;
+	height: 50px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	bottom: 80px;
+	left: 17px;
+	transform: rotate(-10deg);
+	border-radius: 5px;
+}
+.front__bamper2 {
+	width: 50px;
+	height: 50px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	bottom: 40px;
+	left: 20px;
+	transform: skew(-20deg);
+}
+.front__air-intake1 {
+	width: 25px;
+	height: 30px;
+	background-color: #000;
+	position: absolute;
+	bottom: 75px;
+	left: 40px;
+	border-radius: 73% 27% 91% 9% / 0% 83% 17% 100% ;
+}
+.front__air-intake2 {
+	width: 22px;
+	height: 18px;
+	background-color: #000;
+	position: absolute;
+	bottom: 50px;
+	left: 40px;
+	border-radius: 5px;
+}
+.front__air-intake3 {
+	width: 30px;
+	height: 60px;
+	background-color: #000;
+	position: absolute;
+	bottom: 65px;
+	left: 135px;
+	transform: skew(-7deg);
+	border-radius: 5px;
+	border-radius: 100% 0% 0% 100% / 100% 0% 100% 0% ;
+}
+.front__lights1 {
+	width: 60px;
+	height: 35px;
+	background-color: rgb(179, 243, 237);
+	position: absolute;
+	bottom: 140px;
+	left: 40px;
+	border-radius: 100% 0% 100% 0% / 44% 95% 5% 56% ;
+	transform: skew(-20deg);
+	border: 2px solid #000;
+	perspective: 60px;
+	
+}
+
+.front__lights-active {
+	width: 105px;
+	height: 60px;
+	background: rgb(31,187,178);
+	background: linear-gradient(90deg, rgba(31,187,178,0.0001) 0%, rgba(107,228,237,1) 35%, rgba(255,255,255,0.8) 100%);
+	transform: translatex(-150px) matrix(1.3, 0.3, 0, 0.5, 55, -10) rotatey(70deg);
+}
+
+
+.front__lights2 {
+	width: 20px;
+	height: 20px;
+	background-color: rgb(223, 164, 13);
+	position: absolute;
+	bottom: 110px;
+	left: 40px;
+	border-radius: 3px;
+}
+
+
+
+.cetner__base {
+	width: 600px;
+	height: 200px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	bottom: 40px;
+	left: 30%;
+}
+.cetner__top1 {
+	width: 220px;
+	height: 200px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	top: 13%;
+	left: 46%;
+}
+.cetner__top2 {
+	width: 300px;
+	height: 100px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	top: 30%;
+	left: 60.6%;
+	transform: rotate(30deg);
+}
+.cetner__top3 {
+	width: 300px;
+	height: 100px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	top: 30%;
+	left: 24.8%;
+	transform: rotate(-30deg);
+}
+.cetner__front-window {
+	width: 25px;
+	height: 95px;
+	background-color: rgb(2, 1, 59);
+	position: absolute;
+	top: 15%;
+	left: 38.1%;
+	border: 2px solid #000;
+	border-right: 4px solid #000;
+	border-left: none;
+	transform: skew(-60deg);
+}
+.cetner__side__window1 {
+	width: 120px;
+	height: 95px;
+	background-color: rgb(2, 1, 59);
+	position: absolute;
+	top: 15%;
+	left: 44%;
+	transform: skew(-53deg);
+	border: 2px solid #000;
+	border-left: 4px solid #000;
+}
+.cetner__side__window2 {
+	width: 120px;
+	height: 95px;
+	background-color: rgb(2, 1, 59);
+	position: absolute;
+	top: 15%;
+	left: 55%;
+	transform: skew(39deg);
+	border: 2px solid #000;
+	border-left: none;
+	border-left: none;
+	border-right: 4px solid #000;
+}
+.cetner__side__window3 {
+	width: 120px;
+	height: 55px;
+	background-color: rgb(2, 1, 59);
+	position: absolute;
+	top: 25%;
+	left: 48.5%;
+	border-bottom: 2px solid #000;
+}
+.cetner__side__window4 {
+	width: 20px;
+	height: 95px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	top: 15%;
+	left: 59%;
+	border-right: 2px solid #000;
+	border-left: 2px solid #000;
+	transform: skew(10deg);
+}
+.center__rear-window1 {
+	width: 25px;
+	height: 90px;
+	background-color: rgb(2, 1, 59);
+	position: absolute;
+	top: 15%;
+	left: 69.85%;
+	transform: skew(60deg);
+	border: 2px solid #000;
+	border-left: none;
+	border-right: none;
+}
+.center__rear-window2 {
+	width: 25px;
+	height: 90px;
+	background-color: rgb(2, 1, 59);
+	position: absolute;
+	top: 15%;
+	left: 69%;
+	transform: skew(56deg);
+	border: 2px solid #000;
+	border-left: 4px solid #000;
+	border-right: none;
+}
+
+.center__mirror1 {
+	width: 50px;
+	height: 25px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	z-index: 21;
+	top: 125px;
+	left: 495px;
+	border-radius: 80px 50px 80px 30px;
+	transform: rotate(-5deg);
+	border: 2px solid #000;
+}
+.center__mirror2 {
+	width: 50px;
+	height: 7px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	z-index: 20;
+	top: 147px;
+	left: 460px;
+	border-radius: 80px 50px 80px 30px;
+	transform: rotate(-5deg);
+	border: 2px solid #000;
+}
+.cetner__door {
+	width: 300px;
+	height: 160px;
+	background-color: transparent;
+	position: absolute;
+	z-index: 20;
+	top: 154px;
+	left: 35.5%;
+	border: 2px solid #000;
+	border-radius: 30px 30px 80px 30px;
+	transform: skew(-10deg);
+}
+.cetner__door-lock1 {
+	width: 55px;
+	height: 18px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	z-index: 20;
+	top: 170px;
+	left: 660px;
+	border: 2px solid #000;
+	border-radius: 50px 30px 80px 30px;
+}
+.cetner__door-lock2 {
+	width: 40px;
+	height: 18px;
+	background-color: transparent;
+	position: absolute;
+	z-index: 19;
+	top: 175px;
+	left: 665px;
+	border: 2px solid #000;
+	border-radius: 00px 30px 80px 30px;
+}
+
+
+.back__base {
+	width: 400px;
+	height: 220px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	bottom: 40px;
+	right: 20px;
+	border-radius: 93% 7% 81% 19% / 31% 77% 23% 69%;
+}
+.back__bamper {
+	width: 400px;
+	height: 70px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	bottom: 100px;
+	right: 12px;
+	border-radius: 10px;
+	transform: rotate(-7deg);
+}
+.back__rear-lights1 {
+	width: 20px;
+	height: 65px;
+	background-color: rgb(255, 0, 0);
+	position: absolute;
+	bottom: 190px;
+	right: 35px;
+	border-radius: 50%;
+	transform: rotate(-10deg);
+}
+.back__rear-lights2 {
+	width: 12px;
+	height: 35px;
+	background-color: rgb(236, 141, 17);
+	position: absolute;
+	bottom: 205px;
+	right: 38px;
+	border-radius: 50%;
+	transform: rotate(-10deg);
+}
+.back__spoiler1 {
+	width: 45px;
+	height: 70px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	bottom: 245px;
+	right: 65px;
+	border-radius: 87% 13% 0% 100% / 100% 0% 100% 0% ;
+	transform: rotate(10deg);
+}
+.back__spoiler2 {
+	width: 80px;
+	height: 25px;
+	background-color: rgb(34, 31, 240);
+	position: absolute;
+	bottom: 285px;
+	right: 43px;
+	border: 1px solid #000;
+	border-radius: 5% 95% 25% 75% / 34% 0% 100% 66% ;
+	transform: rotate(-5deg);
+}
+
+.wheels {
+	position: absolute;
+	bottom: 0;
+	left: 178px;
+}
+.wheels__rotate {
+	position: relative;
+}
+
+.wheels__disk1 {
+	width: 135px;
+	height: 135px;
+	background-color: rgb(58, 58, 58);
+	border-radius: 50%;
+	position: absolute;
+	bottom: 22px;
+	left: 22px;
+}
+.wheels__disk2 {
+	width: 90px;
+	height: 90px;
+	background-color: rgb(58, 58, 58);
+	border-radius: 50%;
+	border: 2px solid #000;
+	position: absolute;
+	z-index: 5;
+	bottom: 45px;
+	left: 45px;
+}
+.wheels__support {
+	width: 30px;
+	height: 80px;
+	background-color: rgb(218, 0, 0);
+	position: absolute;
+	z-index: 6;
+	bottom: 85px;
+	left: 40px;
+	border-radius: 20px;
+	transform: rotate(45deg);
+}
+.wheels__tire1 {
+	width: 180px;
+	height: 180px;
+	border: 20px solid rgb(58, 58, 58);
+	border-radius: 50%;
+	z-index: 7;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+}
+.wheels__tire2 {
+	width: 145px;
+	height: 145px;
+	border: 15px solid rgb(27, 27, 27);
+	border-radius: 50%;
+	position: absolute;
+	z-index: 7;
+	bottom: 17.5px;
+	left: 17.5px;
+}
+.wheels__rims-center1 {
+	width: 45px;
+	height: 45px;
+	background-color: rgb(27, 27, 27);
+	border: 2px solid #000;
+	border-radius: 50%;
+	z-index: 10;
+	position: absolute;
+	bottom: 67px;
+	left: 67px;
+}
+.wheels__rims-center2 {
+	width: 30px;
+	height: 30px;
+	background-color: rgb(58, 58, 58);
+	border: 2px solid #000;
+	border-radius: 50%;
+	z-index: 10;
+	position: absolute;
+	bottom: 74px;
+	left: 74px;
+}
+.wheels__rims-star1 {
+	width: 150px;
+	height: 20px;
+	background-color: rgb(19, 19, 19);
+	position: absolute;
+	z-index: 6;
+	bottom: 80px;
+	left: 15px;
+	border-radius: 50%;
+}
+.wheels__rims-star2 {
+	width: 150px;
+	height: 20px;
+	background-color: rgb(19, 19, 19);
+	position: absolute;
+	z-index: 6;
+	bottom: 80px;
+	left: 15px;
+	border-radius: 50%;
+	transform: rotate(60deg);
+}
+.wheels__rims-star3 {
+	width: 150px;
+	height: 20px;
+	background-color: rgb(19, 19, 19);
+	position: absolute;
+	z-index: 6;
+	bottom: 80px;
+	left: 15px;
+	border-radius: 50%;
+	transform: rotate(-60deg);
+}
+.wheels__arc {
+	width: 200px;
+	height: 190px;
+	border: 4px solid #000;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 50% 50% 0 0;
+	z-index: 7;
+	position: absolute;
+	bottom: 0px;
+	left: 169px;
+}
+.wheels__nismo-tire {
+	width: 40px;
+	height: 12px;
+	position: absolute;
+	z-index: 10;
+	bottom: 85px;
+	left: 110px;
+}
+
+
+
+
+.wheels2 {
+	position: absolute;
+	bottom: 0;
+	right: 340px;
+}
+.wheels2__rotate {
+	position: relative;
+}
+
+.wheels2__disk1 {
+	width: 135px;
+	height: 135px;
+	background-color: rgb(58, 58, 58);
+	border-radius: 50%;
+	position: absolute;
+	bottom: 22px;
+	left: 22px;
+}
+.wheels2__disk2 {
+	width: 90px;
+	height: 90px;
+	background-color: rgb(58, 58, 58);
+	border-radius: 50%;
+	border: 2px solid #000;
+	position: absolute;
+	z-index: 5;
+	bottom: 45px;
+	left: 45px;
+}
+.wheels2__support {
+	width: 30px;
+	height: 80px;
+	background-color: rgb(218, 0, 0);
+	position: absolute;
+	z-index: 6;
+	bottom: 85px;
+	left: 40px;
+	border-radius: 20px;
+	transform: rotate(45deg);
+}
+.wheels2__tire1 {
+	width: 180px;
+	height: 180px;
+	border: 20px solid rgb(58, 58, 58);
+	border-radius: 50%;
+	z-index: 7;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+}
+.wheels2__tire2 {
+	width: 145px;
+	height: 145px;
+	border: 15px solid rgb(27, 27, 27);
+	border-radius: 50%;
+	position: absolute;
+	z-index: 7;
+	bottom: 17.5px;
+	left: 17.5px;
+}
+.wheels2__rims-center1 {
+	width: 45px;
+	height: 45px;
+	background-color: rgb(27, 27, 27);
+	border: 2px solid #000;
+	border-radius: 50%;
+	z-index: 10;
+	position: absolute;
+	bottom: 67px;
+	left: 67px;
+}
+.wheels2__rims-center2 {
+	width: 30px;
+	height: 30px;
+	background-color: rgb(58, 58, 58);
+	border: 2px solid #000;
+	border-radius: 50%;
+	z-index: 10;
+	position: absolute;
+	bottom: 74px;
+	left: 74px;
+}
+.wheels2__rims-star1 {
+	width: 150px;
+	height: 20px;
+	background-color: rgb(19, 19, 19);
+	position: absolute;
+	z-index: 6;
+	bottom: 80px;
+	left: 15px;
+	border-radius: 50%;
+}
+.wheels2__rims-star2 {
+	width: 150px;
+	height: 20px;
+	background-color: rgb(19, 19, 19);
+	position: absolute;
+	z-index: 6;
+	bottom: 80px;
+	left: 15px;
+	border-radius: 50%;
+	transform: rotate(60deg);
+}
+.wheels2__rims-star3 {
+	width: 150px;
+	height: 20px;
+	background-color: rgb(19, 19, 19);
+	position: absolute;
+	z-index: 6;
+	bottom: 80px;
+	left: 15px;
+	border-radius: 50%;
+	transform: rotate(-60deg);
+}
+.wheels2__arc {
+	width: 200px;
+	height: 190px;
+	border: 4px solid #000;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 50% 50% 0 0;
+	z-index: 7;
+	position: absolute;
+	bottom: 0px;
+	left: -11px;
+}
+.wheels2__nismo-tire {
+	width: 40px;
+	height: 12px;
+	position: absolute;
+	z-index: 100;
+	bottom: 85px;
+	left: 110px;
+}
+
+
+
+
+
+.front-lines__line1 {
+	width: 295px;
+	height: 2px;
+	background-color:  rgb(36, 36, 36);
+	position: absolute;
+	bottom: 205px;
+	left: 90px;
+	transform: rotate(-12deg);
+	border-radius: 30%;
+}
+.front-lines__line2 {
+	width: 315px;
+	height: 2px;
+	background-color:  rgb(36, 36, 36);
+	position: absolute;
+	bottom: 207px;
+	left: 48px;
+	transform: rotate(-11deg);
+	border-radius: 30%;
+}
+.front-lines__line3 {
+	width: 140px;
+	height: 2px;
+	background-color:  rgb(36, 36, 36);
+	position: absolute;
+	bottom: 133px;
+	left: 20px;
+	border-radius: 30%;
+}
+.front-lines__line4 {
+	width: 80px;
+	height: 2px;
+	background-color:  rgb(36, 36, 36);
+	position: absolute;
+	bottom: 106px;
+	left: 20px;
+	border-radius: 30%;
+}
+.front-lines__line5 {
+	width: 50px;
+	height: 2px;
+	background-color:  rgb(36, 36, 36);
+	position: absolute;
+	bottom: 70px;
+	left: 20px;
+	border-radius: 30%;
+}
+.front-lines__line6 {
+	width: 45px;
+	height: 2px;
+	background-color:  rgb(36, 36, 36);
+	position: absolute;
+	bottom: 236px;
+	left: 360px;
+	border-radius: 30%;
+	transform: rotate(3deg);
+}
+
+.center-lines__line1 {
+	width: 500px;
+	height: 2px;
+	background-color:  rgb(36, 36, 36);
+	position: absolute;
+	bottom: 100px;
+	left: 360px;
+	border-radius: 30%;
+	transform: rotate(-1deg);
+}
+.center-lines__line2 {
+	width: 380px;
+	height: 8px;
+	border: 2px solid rgb(36, 36, 36);
+	position: absolute;;
+	background-color:  transparent;
+	position: absolute;
+	bottom: 160px;
+	left: 400px;
+	border-radius: 50%;
+	transform: rotate(-1.5deg);
+}
+.center-lines__line3 {
+	width: 380px;
+	height: 2px;
+	background-color:  rgb(36, 36, 36);
+	position: absolute;
+	bottom: 60px;
+	left: 400px;
+	border-radius: 30%;
+	transform: rotate(-0.5deg);
+}
+
+.back-lines__line1 {
+	width: 380px;
+	height: 14px;
+	border: 2px solid rgb(36, 36, 36);
+	position: absolute;;
+	background-color:  transparent;
+	position: absolute;
+	bottom: 200px;
+	right: 90px;
+	border-radius: 50%;
+	transform: rotate(-3deg);
+}
+.back-lines__line2 {
+	width: 140px;
+	height: 2px;
+	background-color:  rgb(36, 36, 36);
+	position: absolute;
+	bottom: 180px;
+	right: 70px;
+	border-radius: 30%;
+	transform: rotate(-3deg);
+}
+.back-lines__line3 {
+	width: 70px;
+	height: 2px;
+	background-color:  rgb(36, 36, 36);
+	position: absolute;
+	bottom: 218px;
+	right: 38px;
+	border-radius: 30%;
+	transform: rotate(-95deg);
+}
+.back-lines__line4 {
+	width: 130px;
+	height: 7px;
+	border: 2px solid rgb(36, 36, 36);
+	position: absolute;
+	bottom: 90px;
+	right: 25px;
+	border-radius: 40%;
+	transform: rotate(-8deg);
+}
+.back-lines__line5 {
+	width: 50px;
+	height: 2px;
+	background-color:  rgb(36, 36, 36);
+	position: absolute;
+	bottom: 298px;
+	right: 60px;
+	border-radius: 30%;
+	transform: rotate(-4deg);
+}
+
+
+
+.wheels__rotate, .wheels2__rotate {
+	transform-origin: 90px -90px;
+	animation: wheel-rotate 15s cubic-bezier(.75,.04,.73,1) infinite 0s;
+}
+@keyframes wheel-rotate {
+	0% {
+		/* css свойства */
+		transform: rotate(0deg);
+	}
+	30% {
+		/* css свойства */
+		transform: rotate(720deg);
+	}
+	100% {
+		/* css свойства */
+		transform: rotate(-10800deg);
+	}
+}
+
+
+
+
+
+
+.wheels__disk2, .wheels2__disk2 {
+	animation: disk-fire 15s linear infinite forwards;
+}
+@keyframes disk-fire {
+	0% {
+		/* css свойства */
+	}
+	40% {
+		/* css свойства */
+	background-color: rgb(65, 65, 65);
+	}
+	100% {
+		/* css свойства */
+	background-color: rgb(221, 27, 13);
+	}
+}
+
+
+
+.car {
+	animation: car-move 15s cubic-bezier(.75,.04,.73,1) 0s infinite ;
+}
+@keyframes car-move {
+	0% {
+		/* css свойства */
+		transform: translate(0px) rotate(0deg);
+	}
+	30% {
+		/* css свойства */
+		transform: translatex(200px) rotate(-0.2deg);
+	}
+	80% {
+		/* css свойства */
+		transform: rotate(0.5deg);
+	}
+	100% {
+		/* css свойства */
+		transform: translatex(-300px) rotate(-1deg);
+	}
+}
+
+
+body {
+	animation: road-move 15s cubic-bezier(.75,.04,.73,1) 0s infinite;
+}
+@keyframes road-move {
+	0% {
+		/* css свойства */
+	background: #757577 url(../img/road.jpg) 0 -300px / 1920px 1080px repeat-x;
+	}
+	30% {
+		/* css свойства */
+	background: #757577 url(../img/road.jpg) -500px -300px / 1920px 1080px repeat-x;
+	}
+	100% {
+		/* css свойства */
+	background: #757577 url(../img/road.jpg) 12000px -300px / 1920px 1080px repeat-x;
+	}
+}
+
+
+.front__lights-active {
+	animation: light 15s cubic-bezier(0,1,0,1.39) 0s infinite;
+}
+@keyframes light {
+	0% {
+		/* css свойства */
+		opacity: 0%;
+	}
+	28% {
+		/* css свойства */
+		opacity: 0%;
+	}
+	100% {
+		/* css свойства */
+		opacity: 100%;
+	}
+}
+
+
+.back__rear-lights1 {
+	animation: stop 15s cubic-bezier(0,1,0,1.39) 0s infinite;
+}
+@keyframes stop {
+	0% {
+		/* css свойства */
+	}
+	85% {
+		/* css свойства */
+	background-color: rgb(253, 45, 45);
+	box-shadow: none;
+	}
+	100% {
+		/* css свойства */
+	background-color: rgb(238, 0, 0);
+	transform: rotate(-10deg) scale(1.1);
+	box-shadow: 5px 0px 20px rgb(238, 0, 0);
+	}
+}
